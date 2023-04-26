@@ -59,3 +59,63 @@ const dict = {
   VIF_2:
     "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"
 };
+
+const glosario = [
+  ["Término", "Sigla", "Descripción"],
+  [
+    "Modelamiento y Metodologías para la Gestión del Riesgo",
+    "MMGR",
+    "Departamento (Subunidad) dentro de la División de Administración de Riesgos encargado de proveer de herramientas estadísticas o modelos que permitan clasificar el riesgo de crédito de los individuos, personas y empresas."
+  ],
+  [
+    "Administración de Riesgo de Modelo",
+    "ARM",
+    "Departamento (Subunidad) dentro de la División de Administración de Riesgos encargado de la validación metodológica y de implementación de los modelos internos de riesgo de crédito y mercado."
+  ],
+  [
+    "Validación Interna de Tecnología de Información y Soporte",
+    "VITIS",
+    "Subgerencia dentro del área de Administración de Riesgo de Modelo encargado de la validación"
+  ],
+  [
+    "Análisis y Gobierno Estratégico de información",
+    "AGEI",
+    "Gerencia de área encargada del análisis y gobierno estratégico de información."
+  ],
+  [
+    "Muestra fuera de tiempo (Out of time)",
+    "OOT",
+    "Muestra que se utiliza para validar si existe o no sobreajuste, en la construcción o calibración del modelo, generalmente posterior a la ventana de desarrollo."
+  ],
+  [
+    "Muestra fuera de muestra (Out of sample)",
+    "OOS",
+    "Muestra que se utiliza para validar si existe o no sobreajuste, en la construcción o calibración del modelo, parte de la ventana de desarrollo."
+  ],
+  [
+    "Sobreajuste",
+    "",
+    "Término que se utiliza para definir cuando un modelo se ajusta muy bien a los datos utilizados en el entrenamiento, perdiendo predictibilidad en otras muestras (evaluación)"
+  ],
+  ["Ratio de default observado", "RDO", "Número de defaults entre la población."],
+  [
+    "Machine Learning",
+    "ML",
+    "Proceso que se ocupa de la serie de algoritmos y modelos que usualmente se usan en un proceso de Minería de datos."
+  ],
+  [
+    "Aprendizaje",
+    "",
+    "Proceso denominado al entrenamiento de un modelo Machine Learning, en el cual el algoritmo utilizado aprende de las características de las observaciones para realizar predicciones."
+  ],
+  [
+    "Parámetros de configuración",
+    "",
+    "Parámetros que evitan el sobreajuste del algoritmo imponiendo restricciones en su optimización."
+  ],
+  [
+    "Mesa ágil SHIELD",
+    "",
+    "Equipo del área Transformación de Riesgos Digitales cuyos productos están enfocados en clientes Pyme."
+  ]
+];
